@@ -1,0 +1,13 @@
+{
+  "version": 3,
+  "file": "App.test.js",
+  "sourceRoot": "../",
+  "sources": [
+    "coffee/App.test.coffee"
+  ],
+  "names": [],
+  "mappings": "AAAA,OAAA;EAAS,MAAT;EAAiB,MAAjB;CAAA,MAAA;;AACA,OAAO,GAAP,MAAA;;AAEA,IAAA,CAAK,0BAAL,EAAiC,QAAA,CAAA,CAAA;AACjC,MAAA;EAAE,MAAA,CAAO,CAAA,GAAA,GAAP;EACA,WAAA,GAAc,MAAM,CAAC,SAAP,CAAiB,cAAjB;SACd,MAAA,CAAO,WAAP,CAAmB,CAAC,iBAApB,CAAA;AAH+B,CAAjC",
+  "sourcesContent": [
+    "import { render, screen } from '@testing-library/react'\nimport App from './App'\n\ntest 'renders learn react link', ->\n  render <App />\n  linkElement = screen.getByText /learn react/i\n  expect(linkElement).toBeInTheDocument()\n"
+  ]
+}

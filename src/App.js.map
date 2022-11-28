@@ -1,0 +1,13 @@
+{
+  "version": 3,
+  "file": "App.js",
+  "sourceRoot": "../",
+  "sources": [
+    "coffee/App.coffee"
+  ],
+  "names": [],
+  "mappings": "AAAA,IAAA;;AAAA,OAAO,IAAP,MAAA;;AACA,OAAA;;AAEA,GAAA,GAAM,QAAA,CAAA,CAAA;SACJ,CAAA,IAAK,SAAA,CAAU,KAAf;IACE,CAAA,OAAQ,SAAA,CAAU,YAAlB;MACE,CAAA,IAAK,GAAA,CAAI,CAAC,IAAD,EAAO,SAAA,CAAU,WAAW,GAAA,CAAI,MAAzC;MACA,CAAA,CAAA,CAAE;aACK,CAAA,IAAA,CAAM,UAAN,EAAA,IAAA,CADL;MAAF,EAAA,CAAA;MAGA,CAAA,EACE,SAAA,CAAU,WACV,IAAA,CAAK,sBACL,MAAA,CAAO,SACP,GAAA,CAAI,qBAJN,CAKC;;MALD,EAAA,CAAA;IALF,EAAA,MAAA;EADF,EAAA,GAAA;AADI;;AAkBN,OAAA,QAAe",
+  "sourcesContent": [
+    "import logo from './logo.svg'\nimport './App.css'\n\nApp = ->\n  <div className=\"App\">\n    <header className=\"App-header\">\n      <img src={logo} className=\"App-logo\" alt=\"logo\" />\n      <p>\n        Edit <code>src/App.js</code> and save to reload.\n      </p>\n      <a\n        className=\"App-link\"\n        href=\"https://reactjs.org\"\n        target=\"_blank\"\n        rel=\"noopener noreferrer\"\n      >\n        Learn React\n      </a>\n    </header>\n  </div>\n\nexport default App\n"
+  ]
+}
